@@ -12,7 +12,7 @@ Create an AWS Directory Service AD in AWS and Populated with users from the samp
 ## Launch EC2 instance and Select Microsoft OS image:
 - Connect to Microsoft EC2 Instance.
 - Set DNS address of Directory Service created in AWS, inside Internet Protocol(TCP/IPv4) Properties.
-- Set the Domain name of Directory Service inside, Advance System Setting > Computer Name 
+- Set the Domain name of Directory Service, inside Advance System Setting > Computer Name 
 - Now we are connected to our created Active Directory i.e “corp.fourmusks.com”
 
 ![image](https://user-images.githubusercontent.com/40047632/219298744-35e96457-0ea9-464d-99bf-639fa6b31f03.png)
@@ -21,7 +21,7 @@ Create an AWS Directory Service AD in AWS and Populated with users from the samp
 
 ## Import Users in AD from large dataset of (300K+ users):
 - Download data from large dataset (300K+ users) <br />
-(https://raw.githubusercontent.com/datacharmer/test_db/master/load_employees.dump)
+https://raw.githubusercontent.com/datacharmer/test_db/master/load_employees.dump
 - Convert the data related to the attribute fields that need to be inserted into Active Directory into a CSV file. 
 - Then use a PowerShell script to add the user data one at a time to Active Directory
 
